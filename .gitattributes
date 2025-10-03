@@ -1,0 +1,15 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Force Unix-style LF for source code
+*.js  text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md  text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Allow Windows line endings for docs if needed
+*.txt text eol=crlf
